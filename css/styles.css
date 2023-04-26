@@ -1,10 +1,110 @@
 body {
-  max-width: 320px;
+  max-width: 380px;
   margin: auto;
   background: #ddd;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 img {
   display: block;
-  max-width: 100%;
+  max-width: 39px;
+  margin: 0;
+}
+
+header {
+  background-image: url(../img/bg-box.svg);
+  background-size: cover;
+  font-weight: 400;
+  text-align: center;
+  padding: 40px;
+  border-top: #061018;
+}
+
+.box_title {
+  background:#000000de;
+  color: #E3F4FF;
+  padding: 40px;
+  margin-bottom: 20px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  text-align: center;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 30px;
+  margin: 0;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.disque {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.techmag {
+  max-width: 190px;
+  max-height: 90px;
+}
+
+.cta {
+  background: #061018;
+  color: #E3F4FF;
+  padding: 15px 30px;
+  border-radius: 15px;
+}
+
+.cta-light {
+  background: #E3F4FF;
+  color: #061018;
+}
+
+
+.section-light {
+  background: #E3F4FF;
+}
+
+.section-dark {
+  background: #061018;
+  color: #E3F4FF;
+  padding-bottom: 70px;
+}
+
+.card-ill {
+  max-width: 106px;
+  max-height: 91px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #E3F4FF;
+  color: #061018;
+  margin: 70px 28px 0 28px;
+  border-radius: 10px;
+}
+
+h3 {
+  padding: 38px;
+}
+
+a {
+  color: #061018;
+}
+
+footer {
+  background: #061018;
+  padding: 27px 90px 27px 90px;
+  color: #ffffff30;
+  font-size: 11px;
+  text-align: center;
 }
