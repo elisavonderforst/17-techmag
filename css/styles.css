@@ -16,14 +16,13 @@ header {
   background-size: cover;
   font-weight: 400;
   text-align: center;
-  padding: 40px;
-  border-top: #061018;
+  padding: 40px;;
 }
 
 .box_title {
   background:#000000de;
   color: #E3F4FF;
-  padding: 40px;
+  padding: 35px;
   margin-bottom: 20px;
 }
 
@@ -59,8 +58,9 @@ h2 {
 .cta {
   background: #061018;
   color: #E3F4FF;
-  padding: 15px 30px;
+  padding: 10px 25px;
   border-radius: 15px;
+  margin-bottom: 10px;
 }
 
 .cta-light {
@@ -71,6 +71,7 @@ h2 {
 
 .section-light {
   background: #E3F4FF;
+  padding-bottom: 25px;
 }
 
 .section-dark {
@@ -79,22 +80,26 @@ h2 {
   padding-bottom: 70px;
 }
 
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  background: #E3F4FF;
+  color: #061018;
+  padding: 20px;
+  margin: 70px 28px 0 28px;
+  border-radius: 10px;
+}
+
 .card-ill {
   max-width: 106px;
   max-height: 91px;
 }
 
-.card {
-  display: flex;
-  flex-direction: column;
-  background: #E3F4FF;
-  color: #061018;
-  margin: 70px 28px 0 28px;
-  border-radius: 10px;
-}
-
 h3 {
-  padding: 38px;
+  text-align: left;
+  padding-left: 13px;
 }
 
 a {
@@ -103,8 +108,8 @@ a {
 
 footer {
   background: #061018;
-  padding: 27px 90px 27px 90px;
   color: #ffffff30;
-  font-size: 11px;
+  padding: 10px 50px;
+  font-size: 12px;
   text-align: center;
 }
